@@ -1,5 +1,2 @@
 #!/bin/bash
-if [ -n "$(ls -l hello | grep guillaume)" ]
-then
-	chown betty hello
-fi
+chown --from=guillaume betty hello
