@@ -1,2 +1,5 @@
 #!/bin/bash
-[ -n "$(ls -l hello | grep guillaume)" ] && chown betty hello
+if [ -n "$(ls -l hello | grep guillaume)" ]
+then
+	chown betty hello
+fi
