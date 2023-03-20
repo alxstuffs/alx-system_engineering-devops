@@ -1,2 +1,2 @@
 #!/bin/bash
-basename $HOME
+echo "hello $(id -nu)"
